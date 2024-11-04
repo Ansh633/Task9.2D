@@ -1,9 +1,9 @@
-
+// src/components/PostEditor.js
 import React, { useState } from 'react';
 import { Controlled as CodeMirror } from 'react-codemirror2';
 import ReactMarkdown from 'react-markdown';
 import 'codemirror/lib/codemirror.css';
-import 'codemirror/theme/material.css'; 
+import 'codemirror/theme/material.css'; // Choose your theme
 
 const PostEditor = () => {
   const [code, setCode] = useState('');
